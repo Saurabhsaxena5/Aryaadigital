@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Click on profile section(failed)">
+    <classes>
+      <class name="Selinium.AaryaDigital">
+        <methods>
+          <include name="profile"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Selinium.AaryaDigital -->
+    </classes>
+  </test> <!-- Click on profile section(failed) -->
+  <test thread-count="5" name="Check the URL OF THE PAGE(failed)">
+    <classes>
+      <class name="Selinium.AaryaDigital">
+        <methods>
+          <include name="login"/>
+          <include name="url"/>
+        </methods>
+      </class> <!-- Selinium.AaryaDigital -->
+    </classes>
+  </test> <!-- Check the URL OF THE PAGE(failed) -->
+  <test thread-count="5" name="Click on subsription plan(failed)">
+    <classes>
+      <class name="Selinium.AaryaDigital">
+        <methods>
+          <include name="login"/>
+          <include name="subscription"/>
+        </methods>
+      </class> <!-- Selinium.AaryaDigital -->
+    </classes>
+  </test> <!-- Click on subsription plan(failed) -->
+  <test thread-count="5" name="Search on a video(failed)">
+    <classes>
+      <class name="Selinium.AaryaDigital">
+        <methods>
+          <include name="login"/>
+          <include name="searchvideo"/>
+        </methods>
+      </class> <!-- Selinium.AaryaDigital -->
+    </classes>
+  </test> <!-- Search on a video(failed) -->
+  <test thread-count="5" name="Occassor(failed)">
+    <classes>
+      <class name="Selinium.Occassor">
+        <methods>
+          <include name="Loginonoccasor"/>
+        </methods>
+      </class> <!-- Selinium.Occassor -->
+    </classes>
+  </test> <!-- Occassor(failed) -->
+</suite> <!-- Failed suite [Suite] -->
